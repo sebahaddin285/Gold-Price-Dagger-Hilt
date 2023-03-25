@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/goldFragment"
+        android:icon="@drawable/baseline_grid_goldenratio_24"
+        android:title="Exchange" />
+    <item
+        android:id="@+id/goldLocalFragment"
+        android:icon="@drawable/baseline_app_registration_24"
+        android:title="registered" />
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activitity_nav"
+    app:startDestination="@id/goldFragment">
+
+    <fragment
+        android:id="@+id/goldFragment"
+        android:name="com.marangoz.goldprice.ui.goldnetwork.GoldFragment"
+        android:label="GoldFragment"
+        tools:layout="@layout/fragment_gold"/>
+    <fragment
+        android:id="@+id/goldLocalFragment"
+        android:name="com.marangoz.goldprice.ui.goldlocal.GoldLocalFragment"
+        android:label="GoldLocalFragment"
+        tools:layout="@layout/fragment_gold_local"/>
+</navigation>
